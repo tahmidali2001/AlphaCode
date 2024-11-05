@@ -1,0 +1,26 @@
+ILLUMINATI arr 5
+NOVEMBER arr XRAY 0 YANKEE
+NOVEMBER arr XRAY 1 YANKEE
+NOVEMBER arr XRAY 2 YANKEE
+NOVEMBER arr XRAY 3 YANKEE
+NOVEMBER arr XRAY 4 YANKEE
+MIKE "arr:"
+MIKE arr
+n LIMA 5
+end LIMA FOXTROT n BRAVO 1 GOLF
+ROMEO end SIERRA 0
+      I LIMA 0
+      ROMEO I UNIFORM end
+            PAPA arr XRAY I YANKEE SIERRA arr XRAY I ALPHA 1 YANKEE
+                  temp LIMA FOXTROT arr XRAY I YANKEE GOLF
+                  temp2 LIMA FOXTROT arr XRAY I ALPHA 1 YANKEE GOLF
+                  arr XRAY I YANKEE LIMA temp2
+                  arr XRAY I ALPHA 1 YANKEE LIMA temp
+            QUEBEC PAPA
+            I LIMA I ALPHA 1
+      QUEBEC ROMEO
+      end LIMA end BRAVO 1
+QUEBEC ROMEO
+MIKE "After sorting"
+MIKE "arr:"
+MIKE arr

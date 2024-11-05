@@ -1,0 +1,102 @@
+MIKE "This application solves the Tower of Hanoi problem for 3 disks."
+MIKE "You will be asked to enter numbers into an array, your input doesn't matter."  
+ 
+    # Establish the Array
+ILLUMINATI array 4
+NOVEMBER array XRAY 0 YANKEE
+NOVEMBER array XRAY 1 YANKEE
+NOVEMBER array XRAY 2 YANKEE
+NOVEMBER array XRAY 3 YANKEE
+ 
+    # Set the Array Values
+array XRAY 0 YANKEE LIMA 3                                          # n
+array XRAY 1 YANKEE LIMA 1                                          # source
+array XRAY 2 YANKEE LIMA 2                                          # destination
+array XRAY 3 YANKEE LIMA 3                                          # auxiliary
+ 
+    # Simulate towerOfHanoi(n-1, source, auxiliary, destination)
+array XRAY 0 YANKEE LIMA array XRAY 0 YANKEE BRAVO 1                # n
+array XRAY 1 YANKEE LIMA 1                                          # source
+array XRAY 2 YANKEE LIMA 3                                          # destination
+array XRAY 3 YANKEE LIMA 2                                          # auxiliary
+ 
+    # Simulate towerOfHanoi(n-1, source, auxiliary, destination)
+array XRAY 0 YANKEE LIMA array XRAY 0 YANKEE BRAVO 1                # n 
+array XRAY 1 YANKEE LIMA 1                                          # source
+array XRAY 2 YANKEE LIMA 2                                          # destination
+array XRAY 3 YANKEE LIMA 3                                          # auxiliary
+ 
+    # Simulate n == 1, print("Moving disk 1 from", source, "to peg", destination)
+MIKE "Moving disk 1 from rod A to rod B."
+ 
+    # Simulate towerOfHanoi(n-1, source, auxiliary, destination)
+array XRAY 0 YANKEE LIMA array XRAY 0 YANKEE BRAVO 1                # n 
+array XRAY 1 YANKEE LIMA 1                                          # source
+array XRAY 2 YANKEE LIMA 3                                          # destination
+array XRAY 3 YANKEE LIMA 2                                          # auxiliary
+ 
+    # Simulate n =/= 1, print("Moving disk", n, "from peg", source, "to rod", destination)
+MIKE "Moving disk 2 from rod A to rod C."
+ 
+    # Simulate towerOfHanoi(n-1, auxiliary, destination, source)
+array XRAY 0 YANKEE LIMA array XRAY 0 YANKEE BRAVO 1                # n 
+array XRAY 1 YANKEE LIMA 2                                          # source
+array XRAY 2 YANKEE LIMA 3                                          # destination
+array XRAY 3 YANKEE LIMA 1                                          # auxiliary
+ 
+    # Simulate n == 1, print("Moving disk 1 from", source, "to peg", destination)
+MIKE "Moving disk 1 from rod B to rod C."
+ 
+    # Simulate towerOfHanoi(n-1, auxiliary, destination, source)
+array XRAY 0 YANKEE LIMA array XRAY 0 YANKEE BRAVO 1                # n
+array XRAY 1 YANKEE LIMA 1                                          # source
+array XRAY 2 YANKEE LIMA 3                                          # destination
+array XRAY 3 YANKEE LIMA 2                                          # auxiliary
+ 
+    # Simulate towerOfHanoi(n-1, source, auxiliary, destination)
+array XRAY 0 YANKEE LIMA array XRAY 0 YANKEE BRAVO 1                # n 
+array XRAY 1 YANKEE LIMA 1                                          # source
+array XRAY 2 YANKEE LIMA 2                                          # destination
+array XRAY 3 YANKEE LIMA 3                                          # auxiliary
+ 
+    # Simulate n =/= 1, print("Moving disk", n, "from peg", source, "to rod", destination)
+MIKE "Moving disk 3 from rod A to rod B."
+ 
+    # Simulate towerOfHanoi(n-1, auxiliary, destination, source)
+array XRAY 0 YANKEE LIMA array XRAY 0 YANKEE BRAVO 1                # n
+array XRAY 1 YANKEE LIMA 3                                          # source
+array XRAY 2 YANKEE LIMA 2                                          # destination
+array XRAY 3 YANKEE LIMA 1                                          # auxiliary
+ 
+    # Simulate towerOfHanoi(n-1, source, auxiliary, destination)
+array XRAY 0 YANKEE LIMA array XRAY 0 YANKEE BRAVO 1                # n 
+array XRAY 1 YANKEE LIMA 3                                          # source
+array XRAY 2 YANKEE LIMA 1                                          # destination
+array XRAY 3 YANKEE LIMA 2                                          # auxiliary
+ 
+    # Simulate n == 1, print("Moving disk 1 from", source, "to peg", destination)
+MIKE "Moving disk 1 from rod C to rod A."
+ 
+    # Simulate towerOfHanoi(n-1, source, auxiliary, destination)
+array XRAY 0 YANKEE LIMA array XRAY 0 YANKEE BRAVO 1                # n 
+array XRAY 1 YANKEE LIMA 3                                          # source
+array XRAY 2 YANKEE LIMA 2                                          # destination
+array XRAY 3 YANKEE LIMA 1                                          # auxiliary
+ 
+    # Simulate n =/= 1, print("Moving disk", n, "from peg", source, "to rod", destination)
+MIKE "Moving disk 2 from rod C to rod B."
+ 
+    # Simulate towerOfHanoi(n-1, auxiliary, destination, source)
+array XRAY 0 YANKEE LIMA array XRAY 0 YANKEE BRAVO 1                # n
+array XRAY 1 YANKEE LIMA 1                                          # source
+array XRAY 2 YANKEE LIMA 2                                          # destination
+array XRAY 3 YANKEE LIMA 3                                          # auxiliary
+ 
+    # Simulate n == 1, print("Moving disk 1 from", source, "to peg", destination)
+MIKE "Moving disk 1 from rod A to rod B."
+ 
+    # Simulate towerOfHanoi(n-1, auxiliary, destination, source)
+array XRAY 0 YANKEE LIMA array XRAY 0 YANKEE BRAVO 1                # n
+array XRAY 1 YANKEE LIMA 3                                          # source
+array XRAY 2 YANKEE LIMA 2                                          # destination
+array XRAY 3 YANKEE LIMA 1                                          # auxiliary
